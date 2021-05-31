@@ -1,5 +1,6 @@
 .night-rider {
   background-color: #313131;
+  border-color: #313131
 }
 
 .rolling-stone {
@@ -8,16 +9,42 @@
 
 .radical-red {
   background-color: #F04961;
+  border-color: #F04961;
 }
 
 .yello {
   background-color: #F89933;
+  border-color: #F89933;
 }
 
 .main-app {
   background-color: #3C4544;
   margin: 0 auto;
   width: 50%;
+}
+
+.group-1, .group-2, .group-3, .group-4 {
+  margin-bottom: 20px;
+}
+
+.btn-spacing {
+  margin-left: 10px;
+}
+
+.btn-width {
+  width: 50px;
+}
+
+.digit-width {
+  width: 52px;
+}
+
+.btn-shape {
+  padding: 5px;
+  border-radius: 7px;
+  outline: none;
+  font-size: 25px;
+  font-weight: bolder;
 }
 
 .display-board {

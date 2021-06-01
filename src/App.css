@@ -1,29 +1,32 @@
 .night-rider {
   background-color: #313131;
-  border-color: #313131
+  border-color: #313131;
 }
 
 .rolling-stone {
-  background-color: #6D706F;
+  background-color: #6d706f;
 }
 
 .radical-red {
-  background-color: #F04961;
-  border-color: #F04961;
+  background-color: #f04961;
+  border-color: #f04961;
 }
 
 .yello {
-  background-color: #F89933;
-  border-color: #F89933;
+  background-color: #f89933;
+  border-color: #f89933;
 }
 
 .main-app {
-  background-color: #3C4544;
+  background-color: #3c4544;
   margin: 0 auto;
   width: 50%;
 }
 
-.group-1, .group-2, .group-3, .group-4 {
+.group-1,
+.group-2,
+.group-3,
+.group-4 {
   margin-bottom: 20px;
 }
 
@@ -48,7 +51,7 @@
 }
 
 .display-board {
-  background-color: #BCCD95;
+  background-color: #bccd95;
 }
 
 .result {

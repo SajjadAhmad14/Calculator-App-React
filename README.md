@@ -33,8 +33,10 @@ or with https<br>
 `https://github.com/SajjadAhmad14/Calculator-App-React.git`.<br>
 **Step 2**<br>
 Run `cd Calculator-App-React`<br>
-**Step 2**<br>
+**Step 3**<br>
 Run `npm install`<br>
+**Step 4**<br>
+Run `npm start`<br>
 
 ## Tests
 

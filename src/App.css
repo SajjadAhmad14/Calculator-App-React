@@ -1,0 +1,59 @@
+.night-rider {
+  background-color: #313131;
+  border-color: #313131;
+}
+
+.rolling-stone {
+  background-color: #6d706f;
+}
+
+.radical-red {
+  background-color: #f04961;
+  border-color: #f04961;
+}
+
+.yello {
+  background-color: #f89933;
+  border-color: #f89933;
+}
+
+.main-app {
+  background-color: #3c4544;
+  margin: 0 auto;
+  width: 50%;
+}
+
+.group-1,
+.group-2,
+.group-3,
+.group-4 {
+  margin-bottom: 20px;
+}
+
+.btn-spacing {
+  margin-left: 10px;
+}
+
+.btn-width {
+  width: 50px;
+}
+
+.digit-width {
+  width: 52px;
+}
+
+.btn-shape {
+  padding: 5px;
+  border-radius: 7px;
+  outline: none;
+  font-size: 25px;
+  font-weight: bolder;
+}
+
+.display-board {
+  background-color: #bccd95;
+}
+
+.result {
+  color: #000;
+}

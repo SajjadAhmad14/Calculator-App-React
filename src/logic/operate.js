@@ -18,7 +18,7 @@ const operate = (numberOne, numberTwo, operation) => {
       Big(numberOne % numberTwo);
       break;
     default:
-      0;
+      Big(0);
   }
 };
 

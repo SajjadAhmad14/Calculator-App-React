@@ -6,6 +6,7 @@ const App = () => (
   <div className="main-app">
     <Display />
     <ButtonPanel />
+    <calculate />
   </div>
 );
 

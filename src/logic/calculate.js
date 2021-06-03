@@ -4,6 +4,9 @@ const calculate = (data, buttonName) => {
   let { total, next, operation } = data;
   operation = buttonName;
   switch (buttonName) {
+    case 'AC':
+      total = 0;
+      break;
     case '+/-':
       total *= -1;
       next *= -1;

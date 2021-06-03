@@ -1,10 +1,32 @@
+import operate from './operate'; // eslint-disable-line
+
 const calculate = (data, buttonName) => {
-  let { total, next } = data;
-  if (buttonName === '+/-') {
-    total *= -1;
-    next *= -1;
+  let { total, next, operation } = data;
+  operation = buttonName;
+  switch (buttonName) {
+    case '+/-':
+      total *= -1;
+      next *= -1;
+      break;
+    case '+':
+      total += next;
+      break;
+    case '-':
+      total -= next;
+      break;
+    case '*':
+      total *= next;
+      break;
+    case '/':
+      total /= next;
+      break;
+    case '%':
+      total %= next;
+      break;
+    default:
+      total = 0;
   }
-  return { total, next };
+  return { total, next, operation };
 };
 
 export default calculate;

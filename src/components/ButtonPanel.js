@@ -4,34 +4,35 @@ import Button from './Button';
 const ButtonPanel = () => (
   <div className="btn-panel">
     <div className="group-1">
-      <Button name="AC" />
-      <Button name="+/-" />
-      <Button name="%" />
-      <Button name="/" />
+      <Button name="AC" buttonClass="rolling-stone btn-shape btn-spacing" />
+      <Button name="+/-" buttonClass="rolling-stone btn-shape btn-spacing digit-width" />
+      <Button name="%" buttonClass="rolling-stone btn-shape btn-spacing digit-width" />
+      <Button name="/" buttonClass="radical-red btn-shape btn-spacing btn-width" />
     </div>
     <div className="group-2">
-      <Button name="7" />
-      <Button name="8" />
-      <Button name="9" />
-      <Button name="X" />
+      <Button name="7" buttonClass="night-rider btn-shape btn-spacing btn-width digit-width" />
+      <Button name="8" buttonClass="night-rider btn-shape btn-spacing btn-width digit-width" />
+      <Button name="9" buttonClass="night-rider btn-shape btn-spacing btn-width digit-width" />
+      <Button name="X" buttonClass="radical-red btn-shape btn-spacing btn-width" />
     </div>
     <div className="group-3">
-      <Button name="4" />
-      <Button name="5" />
-      <Button name="6" />
-      <Button name="-" />
+      <Button name="4" buttonClass="night-rider btn-shape btn-spacing btn-width digit-width" />
+      <Button name="5" buttonClass="night-rider btn-shape btn-spacing btn-width digit-width" />
+      <Button name="6" buttonClass="night-rider btn-shape btn-spacing btn-width digit-width" />
+      <Button name="-" buttonClass="radical-red btn-shape btn-spacing btn-width" />
     </div>
     <div className="group-4">
-      <Button name="1" />
-      <Button name="2" />
-      <Button name="3" />
-      <Button name="+" />
+      <Button name="1" buttonClass="night-rider btn-shape btn-spacing btn-width digit-width" />
+      <Button name="2" buttonClass="night-rider btn-shape btn-spacing btn-width digit-width" />
+      <Button name="3" buttonClass="night-rider btn-shape btn-spacing btn-width digit-width" />
+      <Button name="+" buttonClass="night-rider btn-shape btn-spacing btn-width digit-width" />
     </div>
     <div className="group-5">
-      <Button name="0" />
-      <Button name="." />
-      <Button name="C" />
-      <Button name="=" />
+      <Button name="0" buttonClass="night-rider btn-shape btn-spacing btn-width digit-width" />
+      <Button name="." buttonClass="night-rider btn-shape btn-spacing btn-width digit-width" />
+      <Button name="C" buttonClass="night-rider btn-shape btn-spacing btn-width digit-width" />
+      <Button name="=" buttonClass="radical-red btn-shape btn-spacing btn-width yello" />
+
     </div>
   </div>
 );

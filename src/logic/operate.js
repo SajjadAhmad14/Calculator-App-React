@@ -13,10 +13,18 @@ const operate = (numberOne, numberTwo, operation) => {
       result = Big(numberOne * numberTwo);
       break;
     case '/':
-      result = Big(numberOne / numberTwo);
+      if (numberTwo === '0') {
+        result = '0';
+      } else {
+        result = Big(numberOne / numberTwo);
+      }
       break;
     case '%':
-      result = Big(Number(numberOne) % Number(numberTwo));
+      if (numberTwo === '0') {
+        result = '0';
+      } else {
+        result = Big(Number(numberOne) % Number(numberTwo));
+      }
       break;
     default:
       result = Big(0);

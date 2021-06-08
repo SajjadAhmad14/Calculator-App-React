@@ -38,10 +38,6 @@ Run `npm install`<br>
 **Step 4**<br>
 Run `npm start`<br>
 
-## Tests
-
-Run `npm run test`
-
 ## Built With
 
 - React

@@ -56,4 +56,11 @@
 
 .result {
   color: #000;
+  text-align: center;
+}
+
+.btn-panel {
+  text-align: center;
+  padding: 20px;
+  padding-bottom: 30px;
 }

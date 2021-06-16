@@ -1,4 +1,4 @@
-.night-rider {
+/* .night-rider {
   background-color: #313131;
   border-color: #313131;
 }
@@ -63,4 +63,54 @@
   text-align: center;
   padding: 20px;
   padding-bottom: 30px;
+} */
+
+.display-board, .group {
+  display: flex;
+}
+
+.display-board {
+  background-color: grey;
+  height: 100px;
+  color: #fff;
+  padding: 10px;
+  justify-content: flex-end;
+}
+
+.group {
+  height: 100px;
+}
+
+.btn-width {
+  width: 25%;
+  font-weight: bolder;
+  color: #000;
+  font-size: 30px;
+}
+
+.width-50 {
+  width: 50%;
+  font-weight: bolder;
+  color: #000;
+  font-size: 30px;
+}
+
+.orange {
+  background-color: orange;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+ul {
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav ul li {
+  list-style-type: none;
+  padding: 0 20px 0 20px;
 }

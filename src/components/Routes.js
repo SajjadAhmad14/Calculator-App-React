@@ -6,7 +6,6 @@ import {
   Link,
 } from 'react-router-dom';
 import App from './App';
-// import Home from './Home';
 import Qoutes from './Qoutes';
 
 const Routes = () => (

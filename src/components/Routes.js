@@ -24,6 +24,7 @@ const Routes = () => (
       </ul>
     </div>
     <Switch>
+      <Route exact path="/" component={App} />
       <Route exact path="/qoutes" component={Qoutes} />
       <Route exact path="/calculator" component={App} />
     </Switch>

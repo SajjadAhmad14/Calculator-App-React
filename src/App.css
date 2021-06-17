@@ -1,70 +1,3 @@
-/* .night-rider {
-  background-color: #313131;
-  border-color: #313131;
-}
-
-.rolling-stone {
-  background-color: #6d706f;
-}
-
-.radical-red {
-  background-color: #f04961;
-  border-color: #f04961;
-}
-
-.yello {
-  background-color: #f89933;
-  border-color: #f89933;
-}
-
-.main-app {
-  background-color: #3c4544;
-  margin: 0 auto;
-  width: 50%;
-}
-
-.group-1,
-.group-2,
-.group-3,
-.group-4 {
-  margin-bottom: 20px;
-}
-
-.btn-spacing {
-  margin-left: 10px;
-}
-
-.btn-width {
-  width: 50px;
-}
-
-.digit-width {
-  width: 52px;
-}
-
-.btn-shape {
-  padding: 5px;
-  border-radius: 7px;
-  outline: none;
-  font-size: 25px;
-  font-weight: bolder;
-}
-
-.display-board {
-  background-color: #bccd95;
-}
-
-.result {
-  color: #000;
-  text-align: center;
-}
-
-.btn-panel {
-  text-align: center;
-  padding: 20px;
-  padding-bottom: 30px;
-} */
-
 .display-board, .group {
   display: flex;
 }
@@ -103,7 +36,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: purple;
+  background-color: rgb(141, 72, 141);
   margin-top: -10px;
 }
 
@@ -137,4 +70,17 @@ ul {
   width: 700px;
   margin: 0 auto;
   height: 100vh;
+}
+
+.qoutesContainer {
+  display: flex;
+  justify-content: center;
+}
+
+.qoutes {
+  background-color: rgb(250, 184, 60);
+  color: #fff;
+  padding: 20px;
+  display: inline-block;
+  font-size: 30px;
 }

@@ -6,7 +6,7 @@ import {
   Link,
 } from 'react-router-dom';
 import App from './App';
-import Home from './Home';
+// import Home from './Home';
 import Qoutes from './Qoutes';
 
 const Routes = () => (
@@ -16,9 +16,6 @@ const Routes = () => (
         <h2>Maths-Up</h2>
       </Link>
       <ul>
-        <Link to="/">
-          <li>Home</li>
-        </Link>
         <Link to="/qoutes">
           <li>Qoutes</li>
         </Link>
@@ -28,7 +25,6 @@ const Routes = () => (
       </ul>
     </div>
     <Switch>
-      <Route exact path="/" component={Home} />
       <Route exact path="/qoutes" component={Qoutes} />
       <Route exact path="/calculator" component={App} />
     </Switch>

@@ -1,8 +1,10 @@
 import React from 'react';
 
+const Quote = require('inspirational-quotes');
+
 const Qoutes = () => (
-  <div>
-    <h1>This is qoutes page</h1>
+  <div className="qoutesContainer">
+    <p className="qoutes">{Quote.getRandomQuote()}</p>
   </div>
 );
 

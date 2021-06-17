@@ -1,4 +1,5 @@
-.display-board, .group {
+.display-board,
+.group {
   display: flex;
 }
 
@@ -58,11 +59,13 @@ ul {
   padding: 10px;
 }
 
-.nav ul a:hover, .nav a:hover {
+.nav ul a:hover,
+.nav a:hover {
   background-color: rgb(179, 173, 173);
 }
 
-.nav ul a, .nav a {
+.nav ul a,
+.nav a {
   text-decoration: none;
 }
 

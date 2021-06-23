@@ -10,16 +10,16 @@ import App from './App';
 import Qoutes from './Qoutes';
 
 export const LocationDisplay = () => {
-  const location = useLocation()
+  const location = useLocation();
 
-  return <div data-testid="location-display">{location.pathname}</div>
-}
+  return <div data-testid="location-display">{location.pathname}</div>;
+};
 
 const Routes = () => (
   <Router>
     <div className="nav">
       <Link to="/">
-        <h2 data-testid = 'maths'>Maths-Up</h2>
+        <h2 data-testid="maths">Maths-Up</h2>
       </Link>
       <ul>
         <Link to="/qoutes">

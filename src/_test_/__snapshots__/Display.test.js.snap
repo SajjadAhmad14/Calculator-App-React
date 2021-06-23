@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test Display component Add screenshot test 1`] = `
+<DocumentFragment>
+  <div
+    class="display-board"
+  >
+    <h1
+      class="result"
+    >
+      0
+    </h1>
+  </div>
+</DocumentFragment>
+`;

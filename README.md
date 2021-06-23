@@ -37,7 +37,8 @@ Run `cd Calculator-App-React`<br>
 Run `npm install`<br>
 **Step 4**<br>
 Run `npm start`<br>
-
+**Tests**<br>
+Run `npm test`<br>
 ## Built With
 
 - React

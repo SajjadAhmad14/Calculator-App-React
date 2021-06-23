@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[` Take snapshot of Button 1`] = `
+exports[`Test Button Component Take snapshot of Button 1`] = `
 <DocumentFragment>
   <button
     type="button"

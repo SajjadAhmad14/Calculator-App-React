@@ -1,25 +1,15 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Display component Display 0 as a result 1`] = `
-<h1
-  class="result"
->
-  0
-</h1>
-`;
-
-exports[`Display component Display null as a result 1`] = `
-<h1
-  class="result"
->
-  null
-</h1>
-`;
-
-exports[`Display component Display undefined as a result 1`] = `
-<h1
-  class="result"
->
-  undefined
-</h1>
+exports[`Test Display component Add screenshot test 1`] = `
+<DocumentFragment>
+  <div
+    class="display-board"
+  >
+    <h1
+      class="result"
+    >
+      0
+    </h1>
+  </div>
+</DocumentFragment>
 `;

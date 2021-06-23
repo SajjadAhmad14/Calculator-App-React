@@ -1,8 +1,8 @@
 import React from 'react-dom';
 import '@testing-library/jest-dom/extend-expect';
 import Button from '../Button';
-import { cleanup, render, screen } from '@testing-library/react';
-describe('', () => {
+import { render, screen } from '@testing-library/react';
+describe('Test Button Component', () => {
   it('Take snapshot of Button', () => {
     const { asFragment } = render(<Button />);
     expect(asFragment(<Button />)).toMatchSnapshot();

@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test Qoutes component Add screenshot test 1`] = `
+<DocumentFragment>
+  <div
+    class="qoutesContainer"
+  >
+    <p
+      class="qoutes"
+    >
+      If everything seems under control, you’re just not going fast enough.
+    </p>
+  </div>
+</DocumentFragment>
+`;

@@ -58,13 +58,14 @@ ul {
   padding: 10px;
 }
 
-.nav a:hover, .nav ul a:hover {
-  background-color: rgb(179, 173, 173);
+.nav a,
+.nav ul a {
+  text-decoration: none;
 }
 
-.nav ul a,
-.nav a {
-  text-decoration: none;
+.nav a:hover,
+.nav ul a:hover {
+  background-color: rgb(179, 173, 173);
 }
 
 .app {

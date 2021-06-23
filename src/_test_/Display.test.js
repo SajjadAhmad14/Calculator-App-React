@@ -1,7 +1,7 @@
 import React from 'react-dom';
 import { render, screen } from '@testing-library/react';
 import '@testing-library/jest-dom/extend-expect';
-import Display from '../Display';
+import Display from '../components/Display';
 
 describe('Test Display component', () => {
   it('Add screenshot test', () => {

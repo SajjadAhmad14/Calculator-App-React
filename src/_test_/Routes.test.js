@@ -1,7 +1,7 @@
 import React from 'react';
 import '@testing-library/jest-dom/extend-expect';
 import { render, screen } from '@testing-library/react';
-import Routes from '../Routes';
+import Routes from '../components/Routes';
 
 describe('Test Routes component', () => {
   beforeEach(() => {

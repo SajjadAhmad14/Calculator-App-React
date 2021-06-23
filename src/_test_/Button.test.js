@@ -1,6 +1,6 @@
 import React from 'react-dom';
 import '@testing-library/jest-dom/extend-expect';
-import Button from '../Button';
+import Button from '../components/Button';
 import { render, screen } from '@testing-library/react';
 describe('Test Button Component', () => {
   it('Take snapshot of Button', () => {
